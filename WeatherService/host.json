@@ -1,0 +1,28 @@
+{
+  "version": "2.0",
+  "logging": {
+    "applicationInsights": {
+      "samplingExcludedTypes": "Request",
+      "samplingSettings": {
+        "isEnabled": true
+      }
+    }
+  },
+  "openApi": {
+    "info": {
+      "version": "1.0.0",
+      "title": "Open API Sample on Azure Functions",
+      "description": "An API that provides the Weather Forecast via HTTP",
+      "termsOfService": "https://github.com/Azure/azure-functions-openapi-extension",
+      "contact": {
+        "name": "Customer Name",
+        "email": "email-from-visual-studio@microsoft.com",
+        "url": "https://github.co/my-git-remote-url.git"
+      },
+      "license": {
+        "name": "MIT",
+        "url": "http://opensource.org/licenses/MIT"
+      }
+    }
+  }
+}
